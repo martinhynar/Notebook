@@ -59,7 +59,7 @@ Notes from ElasticSearch Core training, Nov 2014, Berlin
 
 * Also for LogStash it is not desired to use asynchronos shard replication because LS has no backchannel from which it would know that ES is getting overloaded.
 
-* #shards > #nodes
+* \#shards > \#nodes
 
 * indexing and searching with using routing on some key is good idea to target smaller number of shards.
 * in search query using routing, add also filter with the same key and routing value
